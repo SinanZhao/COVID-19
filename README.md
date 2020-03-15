@@ -1,3 +1,9 @@
 # COVID-19
 ### Data Preparation
-I extracted data of population movement in cities from [Baidu Map](http://qianxi.baidu.com/) using web crawler.
+I used web crawler to extract the following data:
+- Population movement in cities: [Baidu Map](http://qianxi.baidu.com/) .
+- Search intensity of the word "Zoom": [Baidu Index of Zoom](http://index.baidu.com/v2/main/index.html#/trend/zoom?words=zoom)
+- Search intensity of the word "Excel": [Baidu Index of Excel](http://index.baidu.com/v2/main/index.html#/trend/excel?words=excel)
+- Search intensity of the word "telecommuting": [Baidu Index of telecommuting](http://index.baidu.com/v2/main/index.html#/trend/%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC?words=%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC)
+
+
