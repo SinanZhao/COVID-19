@@ -9,3 +9,7 @@ I used web crawler to extract the following data:
 I also extracted the data on history of confirmed cases in different countries from R package: [nCov2019](https://github.com/GuangchuangYu/nCov2019)
 
 ## Data Wrangling
+- Join table Summary with table search_Zoom, table search_Excel, table search_telecommuting based on date
+
+## Visualization
+
