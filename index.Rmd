@@ -1,0 +1,69 @@
+---
+title: "COVID-19 Report"
+author: "Sinan Zhao"
+date: "3/17/2020"
+output: html_document
+---
+
+```{r setup, eval=TRUE, message=FALSE, echo=FALSE, include=FALSE}
+library("dplyr")
+library("leaflet")
+library("ggplot2")
+library("knitr")
+source("analysis.R")
+```
+
+### Findings from SQL queries/important 
+- Jan 17,2020: confirmed cases exceeded 100.
+
+- Jan 24,2020: Chinese New Year holiday started.
+
+- Jan 31,2020: Chinese New Year holiday ended. People were supposed to return to work and schools. 
+
+- Jan 31, 2020: “telecommuting” was searched over 1000 times
+
+- Jan 31,2020: "Zoom" was searched over 10000 times
+
+- Feb 17,2020: The number of confirmed cases reached its maximum value. After 17th, confirmed cases started to decrease.
+
+### Findings from Visualization
+<br />
+
+#### I.COVID-19 affected the way people worked
+```{r, echo=FALSE}
+plotly_Excel
+```
+
+
+- On Janaury 17th, 2020, confirmed cases exceeded 100. After this day, the search intensity of Excel started to decrease. It continued to descrease significantly in the following week as confirmed cases continued to grow. It hit bottom on Jan 24th.
+
+- From Jan 31th, most people were supposed to return to work from the holiday, but the search intensity of Excel still remained lower than average in the following days. It indicated that the epidemic might affect people's work.
+
+- From Feb 3rd, search intensity of Excel significantly increased than previous days, but still remained lower than normal values. One of the reasons might be that some firms approved telecommuting. 
+
+- After Feb 17th, the confirmed cases decreased. Search intensity of Excel returned to normal values a few days after 17th.
+<br />
+
+```{r, echo=FALSE}
+plotly_Telecommuting
+```
+
+- On Jan 17th, the confirmed cases exeeded 100. Three days later, "telecommuting" was searched over 100 times.
+
+- On Jan 31th, the first day of people returning to work, "telecommuting" was searched over 1000 times.
+
+- On Feb 4th, the number of searching "telecommuting" doubled. At the same time, the search intensity of Excel increased significantly, indicating that people found a new way to work.
+
+- After Feb 17th, the confirmed cases as well as the search intensity of "telecommuting" decreased. It indicated that people might return to work as the situation was getting better.
+<br />
+
+#### II.COVID-19 affected the way students studied
+```{r, echo=FALSE}
+plotly_Zoom
+```
+
+- From Jan 24th, the trend of search intensity of Zoom almost followed the trend of confirmed cases. It reached the first peak at Feb 3rd, the first Monday after holiday when students were supposed to go to school. It seemed like most schools started to provide online classes since then. 
+
+
+
+
