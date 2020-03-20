@@ -41,15 +41,22 @@ That's why I looked at the time period from Jan 10th,2020 to Feb 7th, 2020 (two 
 During these periods, the travel intensity declined more in 2020 than 2019, then I would conclude that COVID-19 affected travel intensity. I think in this way it could eliminate the impact of the holiday and the difference in population base.
 
 Here's the result:
- 表格      | 第一列     | 第二列     
+ City      | Decline in 2019     | Decline in 2020  | Change in decline between 2020 and 2019   
+ -------- | :-----------:        | :-----------: | :-----------: 
+ Wuhan     | 第一列     | 第二列    
  -------- | :-----------:  | :-----------: 
- 第一行     | 第一列     | 第二列    
-
-
-
-
-
-
+ Shanghai     | 第一列     | 第二列   
+ -------- | :-----------:  | :-----------: 
+ Beijing     | 第一列     | 第二列   
+ -------- | :-----------:  | :-----------: 
+ Guangzhou     | 第一列     | 第二列   
+ -------- | :-----------:  | :-----------: 
+ Naning     | 第一列     | 第二列   
+ -------- | :-----------:  | :-----------: 
+ Wuxi     | 第一列     | 第二列   
+ -------- | :-----------:  | :-----------: 
+ Guiyang     | 第一列     | 第二列   
+ -------- | :-----------:  | :-----------: 
 
 ## Visualization
 - Visualized the trends of search intensity of Excel, Telecommuting, Zoom and compaired the trends to that of confirmed cases.
