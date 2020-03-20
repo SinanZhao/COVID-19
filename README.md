@@ -1,4 +1,4 @@
-# COVID-19
+# COVID-19 in China
 ## Data Source
 I used web crawler to extract the following data:
 - Population movement in cities: [Baidu Map](http://qianxi.baidu.com/) .
@@ -10,7 +10,7 @@ I used web crawler to extract the following data:
 I also extracted the data on history of confirmed cases in different countries from R package: [nCov2019](https://github.com/canghailan/Wuhan-2019-nCoV)
 
 ## Motivation
-Here I want to study how the outbreak of COVID-19 impacted the lives of people from the lens of work, study, and travelling.
+Here I want to study how the outbreak of COVID-19 impacted the lives of Chinese people from the lens of work, study, and travelling.
 Facing the difficulty of retrieving direct data of how people lived, I chose to analyze search queries which I believe could reflect social behaviors to some extent. "Excel", "Telecommuting", "Zoom" were three key queries I chose to study, because they all represented significant changes during the epidemic. 
 
 ## Data Wrangling
@@ -25,7 +25,7 @@ Facing the difficulty of retrieving direct data of how people lived, I chose to 
 
 
 ### Intracity Travel Intensity 
-Here I want to analyze the impact of COVID-19 on intracity travel intensity. I chose three big cities(Shanghai, Beijing, Guangzhou), three small cities (Naning, Wuxi, Guiyang) and Wuhan(the city with the most confirmed cases) to analyze. 
+Here I want to analyze the impact of COVID-19 on intracity travel intensity. I chose three big cities(Shanghai, Beijing, Guangzhou), three small cities (Naning, Wuxi, Guiyang) and Wuhan(the city with the most confirmed cases) to analyze because cities chosen were more representative, which would lead to more general conclusions. 
 In the first beginning, I planned to compare the intracity travel intensity before the outbreak of COVID-19 and after the outbreak.
 If the intensity decreased significantly, then I would conclude that the COVID-19 affected travel intensity.
 However, then I realized one problem: 
@@ -47,16 +47,17 @@ Here's the result:
  Shanghai | 1.2101           | 3.8416           | 2.6315       |
  Beijing  | 1.1711           | 3.8012           | 2.6301       |
  Guangzhou| 1.8372           | 4.3250           | 2.4878       |
- Naning   | 1.8372           |4.3251            | 2.4878       |
+ Naning   | 0.72205          | 2.9822           | 2.2602       |
  Wuxi     | 0.9670           | 3.6338           | 2.6668       |
  Guiyang  | 0.7152           | 2.7435           | 2.0282       |
 
+Based on the table above, we can tell that the intracity travel intensity declined in 2020 more than 2019 for all the cities.
+It implies that the COVID-19 impacted people's travelling and decreased the travel intensity.
+It obviously made an bigger impact on Wuhan than other cities, since the change in decline between 2020 and 2019 was biggest in Wuhan among all the cities.
+I had assumed that big cities may be impacted more than small cities, however, it was not completely true based on the table above. 
+We can tell that the COVID-19 made a bigger impact on Shanghai and Beijing than most small cities, but there was an excpetion, Wuxi, that had larger change in decline than those three big cities.
+Here are some possible reasons: First, during the outrbreak, people across the whole country were discouraged from going out. It was very inconvenient to go out since people had to take temperature whenever they went, and in some places people also needed to show their ids for records. Hence, it's reasonable that there were not big differences among different cities, since the impact on travelling didn't depend on whether it's a big city, but depend on the national policy. However, despite the national policy, the degree of implementation varied by region. Some local governments ensured more effective implementation of the policy by providing more healthcare publicity and more strict monitor, and people in those cities would reduce the times of travelling. Cities with severe epidemic would also had low travel intensity no matter how big the city is, just like Wuhan.
 
-| 表格      | 第一列     | 第二列     |
-| ---------- | :-----------:  | :-----------: |
-| 第一行     | 第一列     | 第二列     |
-| 第一行     | 第一列     | 第二列     |
-| 第一行     | 第一列     | 第二列     |
 
 ## Visualization
 - Visualized the trends of search intensity of Excel, Telecommuting, Zoom and compaired the trends to that of confirmed cases.
