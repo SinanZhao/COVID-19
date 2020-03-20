@@ -29,6 +29,38 @@ CREATE TABLE summary (date VARCHAR,
                       dead INT);
 
 
+
+CREATE TABLE travel_Shanghai (date1 INT,
+                            intensity1 REAL,
+                            date2 INT,
+                            intensity2 REAL);
+
+CREATE TABLE travel_Beijing (date1 INT,
+                            intensity1 REAL,
+                            date2 INT,
+                            intensity2 REAL);
+
+CREATE TABLE travel_Guangzhou (date1 INT,
+                            intensity1 REAL,
+                            date2 INT,
+                            intensity2 REAL);
+
+CREATE TABLE travel_Guiyang (date1 INT,
+                              intensity1 REAL,
+                              date2 INT,
+                              intensity2 REAL);
+
+CREATE TABLE travel_Naning (date1 INT,
+                            intensity1 REAL,
+                            date2 INT,
+                            intensity2 REAL);
+
+CREATE TABLE travel_Wuhan (date1 INT,
+                            intensity1 REAL,
+                            date2 INT,
+                            intensity2 REAL);
+
+
 -- Sets the input data to be in CSV form
 .mode csv
 
@@ -38,3 +70,10 @@ CREATE TABLE summary (date VARCHAR,
 .import search_telecommuting.csv search_telecommuting
 .import search_Excel.csv search_Excel
 .import summary.csv summary
+.import Travel_Shanghai.csv travel_Shanghai
+.import Travel_Beijing.csv travel_Beijing
+.import Travel_Guangzhou.csv travel_Guangzhou
+.import Travel_Guiyang.csv travel_Guiyang
+.import Travel_Naning.csv travel_Naning
+.import Travel_Wuxi.csv travel_Wuxi
+.import Travel_Wuhan.csv travel_Wuhan

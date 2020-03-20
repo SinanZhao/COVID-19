@@ -29,7 +29,7 @@ source("analysis.R")
 ### Findings from Visualization
 <br />
 
-#### I.COVID-19 affected the way people worked
+#### COVID-19 affected the way people worked
 ```{r, echo=FALSE}
 plotly_Excel
 ```
@@ -57,13 +57,26 @@ plotly_Telecommuting
 - After Feb 17th, the confirmed cases as well as the search intensity of "telecommuting" decreased. It indicated that people might return to work as the situation was getting better.
 <br />
 
-#### II.COVID-19 affected the way students studied
+#### COVID-19 affected the way students studied
 ```{r, echo=FALSE}
 plotly_Zoom
 ```
 
 - From Jan 24th, the trend of search intensity of Zoom almost followed the trend of confirmed cases. It reached the first peak at Feb 3rd, the first Monday after holiday when students were supposed to go to school. It seemed like most schools started to provide online classes since then. 
+<br />
 
+#### COVID-19 affected the way people traveled
 
+```{r, echo=FALSE}
+plotly_Wuhan
+```
 
+```{r, echo=FALSE}
+plotly_Shanghai
+```
 
+```{r, echo=FALSE}
+plotly_Naning
+```
+
+Based on the plots, COVID-19 decreased the intracity travel intensity and restricted people's travelling.
