@@ -58,6 +58,10 @@ Here's the result:
  Guiyang  | 0.7152           | 2.7435           |2.0282
 
 
+| 表格      | 第一列     | 第二列     |
+| ---------- | :-----------:  | :-----------: |
+| 第一行     | 第一列     | 第二列     |
+
 ## Visualization
 - Visualized the trends of search intensity of Excel, Telecommuting, Zoom and compaired the trends to that of confirmed cases.
 
