@@ -1,28 +1,28 @@
 # COVID-19 in China
 ## Data Source
 I used web crawler to extract the following data:
-- Population movement in cities: [Baidu Map](http://qianxi.baidu.com/) .
 - Search intensity of the word "Zoom": [Baidu Index of Zoom](http://index.baidu.com/v2/main/index.html#/trend/zoom?words=zoom)
+  It tracks the number of times that "Zoom" was searched from 2011 to 2020.
 - Search intensity of the word "Excel": [Baidu Index of Excel](http://index.baidu.com/v2/main/index.html#/trend/excel?words=excel)
+  It tracks the number of times that "Excel" was searched from 2011 to 2020.
 - Search intensity of the word "telecommuting": [Baidu Index of telecommuting](http://index.baidu.com/v2/main/index.html#/trend/%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC?words=%E8%BF%9C%E7%A8%8B%E5%8A%9E%E5%85%AC)
+  It tracks the number of times that "telecommuting" was searched from 2011 to 2020.
 - Intra-city travel intensity: [Intra-city Travel intensity](https://qianxi.baidu.com/)
+   It tracks the intra-city travel intensity of different cities from 2019 to 2020.
 
 I also extracted the data on history of confirmed cases in different countries from R package: [nCov2019](https://github.com/canghailan/Wuhan-2019-nCoV)
 
 ## Motivation
 Here I want to study how the outbreak of COVID-19 impacted the lives of Chinese people from the lens of work, study, and travelling.
-Facing the difficulty of retrieving direct data of how people lived, I chose to analyze search queries which I believe could reflect social behaviors to some extent. "Excel", "Telecommuting", "Zoom" were three key queries I chose to study, because they all represented significant changes during the epidemic. 
+Facing the difficulty of retrieving direct data that could reveal how people lived, I chose to analyze search queries which I believe could reflect social behaviors. First, I brainstormed some search queries that were closely related to people's daily lives, then I sorted them into the following categories: work, study and social activities. There were "flight tickets", "telecommuting", "Excel", "lookup", "Excel", "quarantine" etc. Then I chose the most representative term in each category. In the work category, I chose "Excel" because Excel was the most common office software that people use, and more importantly, people search Excel formula frequently, so it's a good indicator of work during the epidemic. After the outbreak, many companies and shops shut down and people stopped working. Then at some point many companies adopted a new way for employers to work: telecommuting, so I also analyzed the search term "telecommuting". Even though I had the hypothesis that the search for "Excel"and "telecommuting" might be correlated, I still wanted to know more about when the change happened and why it happened. In study category, "Zoom" was chosen because most online classes were provided via Zoom and the search for "Zoom" could show how students change the way of studying. For social activities, I wanted to know how the virus impacted people's travelling, so I also analyzed the introcity travel intensity. 
 
 ## Data Wrangling
+### Search term for "Excel", "telecommuting" and "Zoom"
 - Join table Summary with table search_Zoom, table search_Excel, table search_telecommuting based on date
 - Find the first day when the number of confirmed cases exceeded 100
 - Find the first day in 2020 when Zoom was searched more than 10000 times
 - Find the first day in 2020 when "telecommuting" was searched more than 1000 times
 - Find the date when confirmed cases reached the maximum value
-
-
-
-
 
 ### Intracity Travel Intensity 
 Here I want to analyze the impact of COVID-19 on intracity travel intensity. I chose three big cities(Shanghai, Beijing, Guangzhou), three small cities (Naning, Wuxi, Guiyang) and Wuhan(the city with the most confirmed cases) to analyze because cities chosen were more representative, which would lead to more general conclusions. 
