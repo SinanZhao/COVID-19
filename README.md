@@ -61,6 +61,8 @@ Here's the result:
 | 表格      | 第一列     | 第二列     |
 | ---------- | :-----------:  | :-----------: |
 | 第一行     | 第一列     | 第二列     |
+| 第一行     | 第一列     | 第二列     |
+| 第一行     | 第一列     | 第二列     |
 
 ## Visualization
 - Visualized the trends of search intensity of Excel, Telecommuting, Zoom and compaired the trends to that of confirmed cases.
