@@ -42,7 +42,6 @@ During these periods, the travel intensity declined more in 2020 than 2019, then
 
 Here's the result:
  City      | Decline in 2019     | Decline in 2020  | Change in decline between 2020 and 2019   
- -------- | :-----------:  | :-----------: | :-----------: 
  Wuhan     | 0.8186 | 3.6002 | 2.7817
  -------- | :-----------:  | :-----------: 
  Shanghai     | 1.2101     | 3.8416 | 2.6315
