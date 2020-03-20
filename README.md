@@ -41,20 +41,21 @@ That's why I looked at the time period from Jan 10th,2020 to Feb 7th, 2020 (two 
 During these periods, the travel intensity declined more in 2020 than 2019, then I would conclude that COVID-19 affected travel intensity. I think in this way it could eliminate the impact of the holiday and the difference in population base.
 
 Here's the result:
- City      | Decline in 2019     | Decline in 2020  | Change in decline between 2020 and 2019   
- Wuhan     | 0.8186 | 3.6002 | 2.7817
- -------- | :-----------:  | :-----------: 
- Shanghai     | 1.2101     | 3.8416 | 2.6315
- -------- | :-----------:  | :-----------: 
- Beijing     | 1.1711     | 3.8012 | 2.6301
- -------- | :-----------:  | :-----------: 
- Guangzhou     | 1.8372     | 4.3250  | 2.4878
- -------- | :-----------:  | :-----------: 
- Naning     | 1.8372   |4.3251   | 2.4878
- -------- | :-----------:  | :-----------: 
- Wuxi     | 0.9670   | 3.6338   |2.6668
- -------- | :-----------:  | :-----------: 
- Guiyang     | 0.7152     | 2.7435   |2.0282
+ City     | Decline in 2019  | Decline in 2020  | Change in decline between 2020 and 2019   
+ -------- | :-----------:    | :-----------:    | :-----------:
+ Wuhan    | 0.8186           | 3.6002           | 2.7817
+ -------- | :-----------:    | :-----------:    | :-----------:
+ Shanghai | 1.2101           | 3.8416           | 2.6315
+ -------- | :-----------:    | :-----------:    | :-----------:
+ Beijing  | 1.1711           | 3.8012           | 2.6301
+ -------- | :-----------:    | :-----------:    | :-----------:
+ Guangzhou| 1.8372           | 4.3250           | 2.4878
+ -------- | :-----------:    | :-----------:    | :-----------: 
+ Naning   | 1.8372           |4.3251            | 2.4878
+ -------- | :-----------:    | :-----------:    | :-----------:
+ Wuxi     | 0.9670           | 3.6338           |2.6668
+ -------- | :-----------:    | :-----------:    | :-----------:
+ Guiyang  | 0.7152           | 2.7435           |2.0282
 
 
 ## Visualization
